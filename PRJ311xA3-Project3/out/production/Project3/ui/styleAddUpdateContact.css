@@ -1,0 +1,25 @@
+
+.fixLabel {
+    -fx-pref-width: 90px;
+}
+
+.infoPane {
+    -fx-hgap: 10px;
+}
+
+.fixNote
+{
+    -fx-font-family: sans-serif;
+    -fx-font-style: italic;
+    -fx-font-size: 12;
+    -fx-text-fill: #e13421;
+    visibility: hidden;
+}
+
+.fixNoteVisible
+{
+    -fx-font-family: sans-serif;
+    -fx-font-style: italic;
+    -fx-font-size: 12;
+    -fx-text-fill: #e13421;
+}

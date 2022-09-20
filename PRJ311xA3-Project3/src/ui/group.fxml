@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<GridPane prefHeight="458.0" prefWidth="555.0" vgap="10" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.GroupController">
+    <FlowPane hgap="10" GridPane.rowIndex="0">
+        <Label text="Enter group name" />
+        <TextField fx:id="groupSearch" />
+        <Button fx:id="btnSearchGroup" text="Search" />
+    </FlowPane>
+
+    <FlowPane hgap="10" prefHeight="152.0" prefWidth="534.0" GridPane.rowIndex="1">
+        <ListView fx:id="groupList">
+        </ListView>
+        <GridPane prefHeight="400.0" prefWidth="275.0" vgap="10">
+            <Label text="Enter group name" GridPane.rowIndex="0" />
+            <TextField fx:id="groupName" prefHeight="26.0" prefWidth="266.0" GridPane.rowIndex="1" />
+            <FlowPane alignment="CENTER" hgap="20" GridPane.rowIndex="2">
+                <Button fx:id="btnSaveGroup" onAction="#addAction" text="Save" />
+                <Button fx:id="btnUpdateGroup" onAction="#updateAction" text="Update" />
+                <Button fx:id="btnDeleteGroup" text="Delete" />
+            </FlowPane>
+         <Button fx:id="btnClose" mnemonicParsing="false" text="Close" GridPane.rowIndex="29" GridPane.halignment="RIGHT"/>
+         <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" />
+         </columnConstraints>
+         <rowConstraints>
+            <RowConstraints />
+            <RowConstraints />
+            <RowConstraints />
+            <RowConstraints />
+            <RowConstraints />
+            <RowConstraints />
+            <RowConstraints />
+            <RowConstraints />
+            <RowConstraints />
+            <RowConstraints />
+            <RowConstraints />
+            <RowConstraints />
+            <RowConstraints />
+            <RowConstraints />
+            <RowConstraints />
+            <RowConstraints />
+            <RowConstraints />
+            <RowConstraints />
+            <RowConstraints />
+            <RowConstraints />
+            <RowConstraints />
+            <RowConstraints />
+            <RowConstraints />
+            <RowConstraints />
+            <RowConstraints />
+            <RowConstraints />
+            <RowConstraints />
+            <RowConstraints />
+            <RowConstraints />
+            <RowConstraints />
+         </rowConstraints>
+        </GridPane>
+    </FlowPane>
+   <columnConstraints>
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+   </rowConstraints>
+   <padding>
+      <Insets left="10.0" right="10.0" top="10.0" />
+   </padding>
+</GridPane>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<GridPane  prefWidth="543" stylesheets="@/ui/styleAddUpdateContact.css" vgap="10" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.AddContactController">
+
+    <children>
+        <Label prefHeight="26.0" prefWidth="164.0" text="Add a new Contact" GridPane.rowIndex="0">
+            <font>
+                <Font name="System Bold" size="17" />
+            </font>
+        </Label>
+        <FlowPane styleClass="infoPane" GridPane.rowIndex="1">
+            <Label styleClass="fixLabel" text="First Name" />
+            <TextField fx:id="firstName" text="An" />
+            <Label fx:id="lblFirstName" prefHeight="18.0" prefWidth="167.0" styleClass="fixNote" text="First Name cannot be empty">
+            </Label>
+        </FlowPane>
+
+        <FlowPane styleClass="infoPane" GridPane.rowIndex="2">
+            <Label styleClass="fixLabel" text="Last Name" />
+            <TextField fx:id="lastName" text="Ha" />
+            <Label fx:id="lblLastName" styleClass="fixNote" text="Last name can not be empty" />
+        </FlowPane>
+
+        <FlowPane styleClass="infoPane" GridPane.rowIndex="3">
+            <Label styleClass="fixLabel" text="Phone" />
+            <TextField fx:id="phone" text="84123098345" />
+            <Label fx:id="lblPhone" styleClass="fixNote" text="Phone contains digits only"/>
+        </FlowPane>
+
+        <FlowPane styleClass="infoPane" GridPane.rowIndex="4">
+            <Label styleClass="fixLabel" text="Email" />
+            <TextField fx:id="email" text="AnHa@gmail.com" />
+            <Label fx:id="lblEmail" styleClass="fixNote" text="Email is invalid"/>
+        </FlowPane>
+
+        <FlowPane styleClass="infoPane" GridPane.rowIndex="5">
+            <Label styleClass="fixLabel" text="Birthday" />
+            <DatePicker fx:id="dob" />
+            <Label fx:id="lbldob" styleClass="fixNote" text="Birthdate must be less than current date"/>
+        </FlowPane>
+
+        <FlowPane styleClass="infoPane" GridPane.rowIndex="6">
+            <Label styleClass="fixLabel" text="Group" />
+            <ComboBox fx:id="cbGroup" prefHeight="26.0" prefWidth="149.0" />
+        </FlowPane>
+
+        <FlowPane alignment="CENTER_LEFT" hgap="20" prefHeight="60.0" prefWidth="400.0" GridPane.rowIndex="7">
+            <Button fx:id="btnAdd" mnemonicParsing="false" onAction="#saveContact" text="Save" />
+            <Button fx:id="btnClose" mnemonicParsing="false" onAction="#saveContact" text="Close" />
+        </FlowPane>
+    </children>
+
+    <padding>
+        <Insets left="8" top="8" />
+    </padding>
+   <columnConstraints>
+      <ColumnConstraints hgrow="SOMETIMES" />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+   </rowConstraints>
+</GridPane>
