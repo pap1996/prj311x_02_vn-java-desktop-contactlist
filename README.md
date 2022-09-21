@@ -48,7 +48,6 @@ The app has following user interfaces (or windows):
 [![Demo](/res/image/contact-demo.gif)](https://www.youtube.com/watch?v=GB74eQVRANo)
 
 
-
 ## Further enhancement
 
 - Design a feature that allow switch the group of a Contact
