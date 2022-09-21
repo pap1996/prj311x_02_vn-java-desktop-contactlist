@@ -34,17 +34,23 @@ The app has following user interfaces (or windows):
 - Update, Delete: update, delete a given selected group
 - The list of groups in the window must be the same as the filter dropdown in **Contact** window and **Add New Contact** window
 
-![Add New Contact](/res/image/managegroup.png)
+![Manage groups](/res/image/managegroup.png)
 
 4. **Update a contact**: window to update a contact, somehow similar to add a new contact but the window must be filled with selected contact when opening (while Add New Contact, fields are given empty when opening the window)
 
-![Add New Contact](/res/image/updatecontact.png)
+![Update a contact](/res/image/updatecontact.png)
 
 5. **Delete a contact**: new window to re-confirm the deletion of selected contact
 
-![Add New Contact](/res/image/delete.png)
+![Delete a contact](/res/image/delete.png)
 ## Demo
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/GB74eQVRANo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+[![Demo](/res/image/contact-demo.gif)](https://www.youtube.com/watch?v=GB74eQVRANo)
+
+
 
 ## Further enhancement
+
+- Design a feature that allow switch the group of a Contact
+- Add an attribute to show if Contact is active or inactive
+- Design a feature to export a list of Contacts in a given group or selected Contacts to a text/flat file
