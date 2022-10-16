@@ -46,6 +46,8 @@ The app has following user interfaces (or windows):
 ![Delete a contact](/res/image/delete.png)
 ## Demo
 
+The demo video can be seen via: https://www.youtube.com/watch?v=GB74eQVRANo
+
 [![Demo](/res/image/contact-demo.gif)](https://www.youtube.com/watch?v=GB74eQVRANo)
 
 
