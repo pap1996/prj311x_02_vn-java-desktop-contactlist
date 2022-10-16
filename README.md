@@ -1,5 +1,5 @@
 # prj311x_02_vn-java-desktop-contactlist
- This folder contains my submission to the assignment 3 ContactList in the course PRJ311x_02_VN (Programming Desktop App with Java), a part of the path Software Engineering provided by <span align="center">  <a href="https://funix.edu.vn/gioi-thieu-funix/"><img src="/res/image/funix.png" width="85"/></a>.</span>
+ This folder contains my submission to the assignment 3 ContactList in the course PRJ311x_02_VN (Programming Desktop App with Java), a part of the path Software Engineering provided by <a href="https://funix.edu.vn/gioi-thieu-funix/"><img src="/res/image/funix.png" width="50"/></a>.
 
 
 
