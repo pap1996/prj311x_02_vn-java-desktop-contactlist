@@ -1,5 +1,5 @@
 # prj311x_02_vn-java-desktop-contactlist
- This folder contains my submission to the assignment 3 ContactList in the course PRJ311x_02_VN (Programming Desktop App with Java), a part of the path Software Engineering provided by <a href="https://funix.edu.vn/gioi-thieu-funix/"><img src="/res/image/funix.png" style="vertical-align:middle; max-width: 100%;" width="85"/></a>.
+ This folder contains my submission to the assignment 3 ContactList in the course PRJ311x_02_VN (Programming Desktop App with Java), a part of the path Software Engineering provided by <a href="https://funix.edu.vn/gioi-thieu-funix/"><img src="/res/image/funix.png" style="max-width: 100%; vertical-align:middle; " width="85"/></a>.
 
 ## About the project
 - **ContactList** allows users to easily store and search information about friends, partners and relatives (hereinafter referred to as contacts). Each **Contact** includes information such as: full name, date of birth, contact phone number. Information about these **Contacts** will be stored in a file for easy processing and reuse later.
